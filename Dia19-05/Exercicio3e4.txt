@@ -1,0 +1,17 @@
+Exercicio 3:
+
+var umNome string
+var sobrenome string
+var idade int
+umSobrenome := 6
+var licenca_para_dirigir = true
+var estaturaDaPessoa int = 1,75
+quantidadeDeFilhos := 2
+
+Exercicio 4:
+
+var sobrenome string = "Silva"
+var idade int = 25
+boolean := false
+var salario int32 = 4585.90
+var nome string = "Fellipe"
