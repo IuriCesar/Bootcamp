@@ -1,3 +1,3 @@
 # Bootcamp
 Estarão todos os exercícios resolvidos
-Por Caique e Iuri
+Pasta Dia19-05: Por Caique e Iuri no dia
