@@ -59,14 +59,15 @@ func main() {
 
 	linha.Close()
 	var soma float32 = 0
+	fmt.Printf("ID\t Preço\t Quantidade\n")
 	for _, each_ln := range text {
 		dados := strings.Split(each_ln, ";")
 		ident, _ := strconv.Atoi(dados[0])
 		prec, _ := strconv.ParseFloat(dados[1], 32)
 		qt, _ := strconv.Atoi(dados[2])
-		fmt.Printf("%d\t %.2f\t %d\n", ident, prec, qt)
+		fmt.Printf("%.3d\t %5.2f\t %4.4d\n", ident, prec, qt)
 		soma += float32(prec) * float32(qt)
 	}
-	fmt.Printf("\t%.2f\n", soma)
+	fmt.Printf("\tTotal:%5.2f\n", soma)
 	//
 }
